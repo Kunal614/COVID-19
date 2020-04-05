@@ -39,6 +39,7 @@ def corona():
     if request.method=='POST':
         name=request.form['name']
         print(name)
+        list1.clear()
         list1.append(name)
         email = request.form['user']
         password=request.form['pass']
